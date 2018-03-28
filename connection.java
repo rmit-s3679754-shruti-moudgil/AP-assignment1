@@ -8,6 +8,8 @@ public class connection {
 	{
 		this.p1 = p11;
 		this.p2 = p22;
+		p11.numOfConnections += 1;
+		p22.numOfConnections += 1;
 		this.typeOfConn = type;
 	}
 }
