@@ -144,7 +144,7 @@ public class Driver {
 				else System.out.print("\nNot connected\n");
 			}
 			
-			//else if (x==9) break;
+			else if (x==9) break;
 			else System.out.print("\nInvalid choice, try again\n\n");
 			
 		}
